@@ -1,4 +1,4 @@
-def hello_t(array="Hey! No block was given!")
+def hello_t(array)
   i = 0
   while i < array.length
     yield array[i]
